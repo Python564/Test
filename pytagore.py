@@ -1,4 +1,5 @@
-import mathx=(int(input("Tapez le chiffre: ")))
+import math
+x=(int(input("Tapez le chiffre: ")))
 y=(int(input("Tapez le chiffre 2 : ")))
 n1= x*x
 n2= y*y
