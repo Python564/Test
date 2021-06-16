@@ -1,15 +1,13 @@
+import statistics
 list = []
- 
-# take number from user, how many element in list
-n = int (input ("How many element in list :- "))
+# Prends les infos des utilisateurs
+n = int (input ("Combien il y a t-il de chiffres ?  "))
  
  
 # append element into list using list.append
 for i in range (n) :
-    storeElement = int (input ("Enter an integer num :- "))
-    myList.append (storeElement)
+    storeElement = int (input ("il y a- "))
+    list.append (storeElement)
  
-# print all elements
-print("Input list elements are: ")
 for i in range (n) :
-    print(myList [i])
+    print(f"La mediane est {statistics.median(list)}")
